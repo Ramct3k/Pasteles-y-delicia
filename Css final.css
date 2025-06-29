@@ -1,0 +1,250 @@
+*{
+    
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* body{background-image: url(fondo\ tp\ final.svg);}
+body header{
+    width: 100%;
+    height: 100px;
+    background: peru;
+    border-bottom: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+header a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: auto auto;
+    gap: 15px ;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 10 10;
+    gap: 15px ;
+}
+nav ol{
+    display: flex;
+    flex-direction: row;
+    margin: 5;
+    padding: 0 auto;
+    gap: 15px ;
+}
+body main{
+    width: 1000px;
+    height: 3300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 170px;
+    margin: 170px 170px;
+    gap: 100px;
+}
+main #intro{
+    width:100% ;
+    background: peru;
+    border-bottom:solid 10px rgb(240, 184, 81);
+    border-top: solid 10px rgb(240, 184, 81);
+    border-left: solid 10px rgb(240, 184, 81);
+    border-right: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#intro .Logo{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    padding: 50px auto;
+}
+.Logo img{width: 100%;}
+#intro .Logodos{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 170px;
+    padding: 100px auto;
+    gap: 200px;
+}
+.Logodos img{width: 100%;}
+main .galery{
+    width: 100%;
+    height: 700px;
+    background: peru;
+    border-bottom: solid 10px rgb(240, 184, 81);
+    border-top: solid 10px rgb(240, 184, 81);
+    border-left: solid 10px rgb(240, 184, 81);
+    border-right: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    gap: 1px; 
+
+}
+.galery h2{color: white;
+    font-family: Arial, Helvetica, sans-serif;}
+.galery .photos{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-evenly;
+    
+    gap: 10px;
+}
+.photos figure{
+    color: white;
+    width: 300;
+    height: 500;
+    display: flex;
+    flex-direction: column;
+}
+figure img{
+    width: 100%;
+    height: 30%;
+}
+main #publicidad{
+    width: 1000;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    gap: 15px;
+}
+main aside{
+    color: white;
+    background: peru;
+    border-bottom: solid 10px rgb(240, 184, 81);
+    border-top: solid 10px rgb(240, 184, 81);
+    border-left: solid 10px rgb(240, 184, 81);
+    border-right: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    gap: 15px;
+}
+aside .autor{
+    width: 300;
+    height: 500;
+    display: flex;
+    flex-direction: column;
+}
+.autor img{
+    width: 100%;
+    height: 90%;
+}
+table{border: rgb(255, 187, 119);}
+th{background: rgb(240, 184, 81);}
+td{background: rgb(240, 184, 81);}
+body footer{
+    color: white;
+    width: 100%;
+    height: 100px;
+    background: peru;
+    border-top: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+header a{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+main .reserv{
+    width:100% ;
+    height: 300px;
+    background: peru;
+    border-bottom:solid 10px rgb(240, 184, 81);
+    border-top: solid 10px rgb(240, 184, 81);
+    border-left: solid 10px rgb(240, 184, 81);
+    border-right: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.reserv form{width: 300px; display: flex;flex-direction: column;justify-content: center;margin-left: 170px;}
+main .pedido{
+    width:100% ;
+    height: 400px;
+    background: peru;
+    border-bottom:solid 10px rgb(240, 184, 81);
+    border-top: solid 10px rgb(240, 184, 81);
+    border-left: solid 10px rgb(240, 184, 81);
+    border-right: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pedido form{width: 300px;display: flex;flex-direction: column;justify-content: center;margin-left: 170px;}
+main .reseña{
+    width:100% ;
+    height: 200px;
+    background: peru;
+    border-bottom:solid 10px rgb(240, 184, 81);
+    border-top: solid 10px rgb(240, 184, 81);
+    border-left: solid 10px rgb(240, 184, 81);
+    border-right: solid 10px rgb(240, 184, 81);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
